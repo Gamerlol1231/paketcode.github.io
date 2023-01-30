@@ -1,0 +1,30 @@
+*
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+  display: flex;
+  min-height: 100vh;
+  background: #23242a;
+}
+input[type="submit"]
+{
+  border: none;
+  outline: none;
+  background: #45f3ff;
+  padding: 10rpx 25px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+input[type="submit"]:active
+{
+  opacity: 0.8;
+}
